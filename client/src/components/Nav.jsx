@@ -36,7 +36,7 @@ const Nav = ()=>{
                             <li className="text-4xl font-semibold p-2 text-transparent  bg-clip-text bg-gradient-to-r from-green-200 from-0% via-yellow-100 via-50% to-green-200 to-95%"><a href="/">CarbonXchange</a></li>
                         </div>    
                         <div className="flex flex-row items-center">
-                            <li className="mx-10 3xl font-semibold p-2 "><Link to="/buy">HOME</Link></li>
+                            <li className="mx-10 3xl font-semibold p-2 "><Link to="/home">HOME</Link></li>
                             <li className="mx-10 3xl font-semibold p-2 "><Link to="/buy">Buy Credits</Link></li>
                             <li className="mx-10 3xl font-bold px-4 p-2 text-transparent  bg-clip-text bg-gradient-to-r from-green-200 from-0% via-yellow-100 via-50% to-green-200 to-95%">
                                 <button onClick={handleClick}>
