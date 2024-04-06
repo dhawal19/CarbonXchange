@@ -12,13 +12,13 @@ async function main() {
     const carbonCreditPriceWei = ethers.parseEther(carbonCreditPriceEth);
 
     // Deploy the contract
-    const creditContract = await CarbonCreditContract.deploy(carbonCreditPriceWei);
+    const creditContract = await CarbonCreditContract.waitForDeployment(carbonCreditPriceWei);
 
     // Wait for the contract to be deployed and obtain the deployed contract instance
-    await creditContract.deployed();
+    await creditContract.waitForDeployment();
 
     // Log the deployed contract address
-    console.log("Contract deployed at address:", creditContract.address);
+    console.log("Contract deployed at address:", creditContract.target);
   } catch (error) {
     console.error("Error deploying contract:", error);
     process.exit(1); // Exit with error code

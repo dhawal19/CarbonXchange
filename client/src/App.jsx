@@ -12,7 +12,6 @@ function App() {
           <Route path='/' element ={<Landing/>}/>
           <Route path='/home' element={<Home/>}/>
           <Route path='/buy' element={<BuyCredit/>}/>
-          <Route path='/ethereum' element={<Ethereum/>}/>
         </Routes>
       </BrowserRouter>
     </div>
