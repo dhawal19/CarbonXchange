@@ -12,7 +12,7 @@ async function main() {
     const carbonCreditPriceWei = ethers.parseEther(carbonCreditPriceEth);
 
     // Deploy the contract
-    const creditContract = await CarbonCreditContract.waitForDeployment(carbonCreditPriceWei);
+    const creditContract = await CarbonCreditContract.deploy(carbonCreditPriceWei);
 
     // Wait for the contract to be deployed and obtain the deployed contract instance
     await creditContract.waitForDeployment();

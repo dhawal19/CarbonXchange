@@ -10,15 +10,15 @@ const Home = () => {
         <div className='w-[80%]'>
             <div className='flex flex-col min-h-[85vh] justify-between lg:flex-row items-center'>
                 <div>
-                    <h1 className='text-8xl font-semibold bg-gradient-to-r from-green-200 from-0% via-yellow-100 via-50% to-green-200 to-95% bg-clip-text text-transparent p-4 pl-0'>Trade <span className='hover:underline'>Carbon Credits</span> In An Instant</h1>
+                    <h1 className='text-8xl font-semibold p-4 pl-0'>Trade <span className='hover:underline bg-gradient-to-r from-green-200 from-0% via-yellow-100 via-50% to-green-200 to-95% bg-clip-text text-transparent'>Carbon Credits</span> In An Instant</h1>
                     <p className='text-xl font-light'>Want to reduce your carbon footprint?</p>
 
                 </div>
                 <img src={netZero} alt="" className='max-w-[40%] p-4'/>
             </div>
             <div className='flex flex-row min-h-[85vh] items-center justify-between'>
-                <div className='flex flex-col max-w-[40%] align-center'>
-                    <img className="" src={carbon} alt="Carbon Trading" />
+                <div className='flex flex-col max-w-[40%] align-center '>
+                    <img className=" " src={carbon} alt="Carbon Trading" />
                 </div>
                 <div className='flex flex-col max-w-[50%] py-5'>
                     <div className='flex justify-center'>

@@ -7,7 +7,7 @@ module.exports = {
   networks : {
     sepolia : {
       url : "https://eth-sepolia.g.alchemy.com/v2/iIb_zjVxQu_wKNotDaaKNLpNAVmlB-Or", 
-      accounts : ['23b28c1eecb19e29ee7e6390d1eb35fd9d6322e6a31c87e712ae3bd9068c6b09']
+      accounts : ['0x23b28c1eecb19e29ee7e6390d1eb35fd9d6322e6a31c87e712ae3bd9068c6b09']
     }
   }
 }
