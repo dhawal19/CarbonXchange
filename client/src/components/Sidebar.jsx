@@ -49,7 +49,7 @@ export const Sidebar = () => {
                 <img src="history.svg" className="h-8" alt="history"/>
             </div>
             <div className="mb-4 p-2 flex flex-row items-center justify-between">
-                <p className="text-sm font-semibold mb-1 p-3 text-slate-300">NGO Patners</p>
+                <p className="text-sm font-semibold mb-1 p-3 text-slate-300">NGO Partners</p>
                 <img src="partner.svg" alt="partner" className="h-8"/>
             </div>
             <div className="flex justify-center">

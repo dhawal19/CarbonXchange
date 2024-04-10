@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        await mongoose.connect(process.env.DATABASE_URI),{
+        await mongoose.connect("mongodb://localhost:27017/carbonXchange"),{
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useFindAndModify: false

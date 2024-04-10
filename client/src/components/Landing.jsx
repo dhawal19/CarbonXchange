@@ -39,7 +39,7 @@ const Home = () => {
                         <img src = "phone.svg" alt="phone" className='w-10 my-10'/>
                         <div className='flex flex-col w-100 my-10'>
                             <h1>Call Us</h1>
-                            <h1>Phone +91 XXXXXXXXXX</h1>
+                            <h1>Phone +919999999999</h1>
                         </div>
                     </div>
                     <div className='flex flex-row gap-4'>
